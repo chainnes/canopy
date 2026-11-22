@@ -1,0 +1,10 @@
+{
+  "query": "harbor ledger",
+  "results": [
+    {
+      "title": "Harbor Ledger (fictional fixture)",
+      "url": "https://example.test/harbor-ledger",
+      "snippet": "Fictional warehouse-count demo used only in this portfolio. No live page was fetched."
+    }
+  ]
+}
