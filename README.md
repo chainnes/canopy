@@ -1,4 +1,6 @@
-# Canopy
+# Agentic Personal Assistant
+
+Codename: Canopy
 
 This is a personal portfolio build by Charlene Cordero. It is based on the public CWB Hackathon problem statement from id8nxt, [Build your agentic personal assistant](https://www.cwbhackathon.com/problem-statements/general-problem-statement-build-your-agentic-personal-assistant). It is not a submission, and it does not claim a prize, a client, or a measured business result.
 
