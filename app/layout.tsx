@@ -13,7 +13,7 @@ const display = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Canopy — local agentic desk",
+  title: "Agentic Personal Assistant — local agentic desk",
   description:
     "A local desk agent for calendar, tasks, and notes. Outbound messages wait for confirmation. Works offline with a mock model.",
 };

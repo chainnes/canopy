@@ -1,14 +1,12 @@
 # Agentic Personal Assistant
 
-Codename: Canopy
-
 This is a personal portfolio build by Charlene Cordero. It is based on the public CWB Hackathon problem statement from id8nxt, [Build your agentic personal assistant](https://www.cwbhackathon.com/problem-statements/general-problem-statement-build-your-agentic-personal-assistant). It is not a submission, and it does not claim a prize, a client, or a measured business result.
 
-Canopy is a local desk for a fictional freelancer. It reads a made-up profile with embeddings, scores synthetic posts for fit, rate, and scam risk, and parks every draft until a person confirms it. Nothing is submitted. The person in the sample data is Mara Ellison. She is invented. The job posts are invented.
+Agentic Personal Assistant is a local desk for a fictional freelancer. It reads a made-up profile with embeddings, scores synthetic posts for fit, rate, and scam risk, and parks every draft until a person confirms it. Nothing is submitted. The person in the sample data is Mara Ellison. She is invented. The job posts are invented.
 
 ## Problem
 
-A freelancer can lose an afternoon to posts that pay under the floor, ask for a deposit, or hide instructions in the brief. Canopy keeps the calendar and the task list, retrieves the profile by similarity, and returns a structured assessment with citations. A cover note is drafted only from profile text. Lines that are not in the profile are marked `[VERIFY]`. The note waits under Pending.
+A freelancer can lose an afternoon to posts that pay under the floor, ask for a deposit, or hide instructions in the brief. The desk keeps the calendar and the task list, retrieves the profile by similarity, and returns a structured assessment with citations. A cover note is drafted only from profile text. Lines that are not in the profile are marked `[VERIFY]`. The note waits under Pending.
 
 ## Architecture
 
@@ -174,7 +172,7 @@ Covers the Manila clock, the morning-brief rule, the desk tools, semantic rank, 
 
 ## Free-tier deploy
 
-Canopy is a long-running Node process and a JSON file. A small VM or a container with a disk fits. Serverless hosts will not keep the file.
+The app is a long-running Node process and a JSON file. A small VM or a container with a disk fits. Serverless hosts will not keep the file.
 
 ```bash
 cp .env.example .env
